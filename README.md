@@ -17,7 +17,7 @@ A local academic prototype using FastAPI, scikit-learn and a responsive dark das
 ## Run (macOS / Linux)
 
 ```bash
-python3 -m venv .venv
+python3.11 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
 uvicorn main:app --reload
